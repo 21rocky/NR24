@@ -1,0 +1,226 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNYJS+HEiBgyZqoRNKlyj13",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rocky24code/NR24/blob/main/Python-ders1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Dəyişkənlər, Opratorlar,Şərh sətirləri"
+      ],
+      "metadata": {
+        "id": "pCE3TaqY7A1z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7JfpqXGm66Ah",
+        "outputId": "bff97297-850c-4d22-e150-613e27705252"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ],
+      "source": [
+        "5  # print funksiyasi araya girir, ancaq cox da istifade edilmir"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5*3 #bu funksiyalarda avtomatic olaraq print edir\n",
+        "      #yeni setirlerde code ler yazdiqda bu funksiya problem ola biler"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hI5PkKcZ9IMV",
+        "outputId": "d5bb75b3-94c7-4290-d8ef-7f3219ecfd83"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "15"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=5 \n",
+        "print(a)           #deyiskenlere ad verib sonradan deyismek olar\n",
+        "                   #deyiskenler her zaman deyismek olar\n",
+        "a=2\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "id": "Yew4GXwYBBAW",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "722961fc-f292-4ccb-e748-0698b5be3ad4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=2             #deyiskenler\n",
+        "b=4\n",
+        "print(a+b)"
+      ],
+      "metadata": {
+        "id": "GEyKwzOt964t",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1363321a-4311-4051-c7af-a80e95275eaa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "PI = 3.14\n",
+        "r = 8\n",
+        "\n",
+        "\n",
+        "print(PI * r * r)\n",
+        "\n",
+        "# ( 35herf = 5 ) ve ya ( salam baku =  )\n",
+        "# deyiskenler reqemlarla baslaya bilmez, \n",
+        "# digerinde ise ( salambaku veya salam_baku yazila biler )"
+      ],
+      "metadata": {
+        "id": "-cf6aQs4Eqp0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c68a88b5-7e15-420b-8992-b0d3d3431359"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "200.96\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=4          #duzbucaqli dort bucagin qisa ter.\n",
+        "d=5          #duzbucaqli dort bucagin uzun ter.\n",
+        "print(\"4 + 5 =\",a+d)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oc-PX07VXoNs",
+        "outputId": "f25f7818-e018-4793-f1db-11dc2ff777f7"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4 + 5 = 9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# \"#\"- sərh üçün istifadə edilir"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aOjI0ZXaYKDE",
+        "outputId": "024f91e9-713b-47ab-a675-ba0cda7171e0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "10\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
